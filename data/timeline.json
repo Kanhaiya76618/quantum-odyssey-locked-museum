@@ -1,0 +1,1031 @@
+{
+  "meta": {
+    "project": "Quantum Odyssey",
+    "description": "Detailed historical timeline of quantum science, from the 17th-century debate on the nature of light to modern quantum computing. Each event card: year, people, discovery, evidence, significance. Track field forks into 'computing' at 1980.",
+    "version": "0.1.0",
+    "entries": 71,
+    "tracks": [
+      "foundations",
+      "computing"
+    ],
+    "last_updated": "2026-07-10"
+  },
+  "acts": [
+    {
+      "id": 1,
+      "title": "The nature of light",
+      "range": "1621-1799",
+      "theme": "Newton vs Huygens: is light a particle or a wave? The 250-year argument quantum will end by answering 'both'."
+    },
+    {
+      "id": 2,
+      "title": "Cracks in the classical world",
+      "range": "1800-1899",
+      "theme": "Waves win, atoms emerge, spectra appear - and classical physics starts failing to explain its own data."
+    },
+    {
+      "id": 3,
+      "title": "The quantum is born",
+      "range": "1900-1924",
+      "theme": "Planck's desperate act to Einstein's photon to Bohr's atom: energy comes in packets."
+    },
+    {
+      "id": 4,
+      "title": "Quantum mechanics proper",
+      "range": "1925-1949",
+      "theme": "A complete theory in five explosive years - matrices, waves, uncertainty, antimatter - then war-forged QED."
+    },
+    {
+      "id": 5,
+      "title": "Entanglement gets real",
+      "range": "1950-1979",
+      "theme": "Bell turns philosophy into experiment; lasers and reversible-computing ideas quietly load the next revolution."
+    },
+    {
+      "id": 6,
+      "title": "The quantum computing era",
+      "range": "1980-present",
+      "theme": "The track forks: information becomes physical, algorithms threaten cryptography, machines get built."
+    }
+  ],
+  "events": [
+    {
+      "id": "1621-snell",
+      "year": 1621,
+      "act": 1,
+      "track": "foundations",
+      "people": [
+        "Willebrord Snellius"
+      ],
+      "title": "Law of refraction",
+      "discovery": "Precise mathematical law for how light bends when passing between media (sin ratios constant).",
+      "evidence": "Geometric measurements of refraction angles across air-water-glass interfaces.",
+      "significance": "First hint that light obeys exact mathematical law - the tradition of quantifying light begins here."
+    },
+    {
+      "id": "1665-grimaldi",
+      "year": 1665,
+      "act": 1,
+      "track": "foundations",
+      "people": [
+        "Francesco Maria Grimaldi"
+      ],
+      "title": "Diffraction of light",
+      "discovery": "Light bends slightly around obstacles and produces fringed shadows; he coined the word 'diffraction'.",
+      "evidence": "Sunbeam through tiny apertures cast shadows wider than geometry allowed, with colored fringes (published posthumously, Physico-mathesis de lumine).",
+      "significance": "First observed behavior of light that particles-in-straight-lines could not explain - the earliest experimental seed of wave-particle trouble."
+    },
+    {
+      "id": "1665-hooke",
+      "year": 1665,
+      "act": 1,
+      "track": "foundations",
+      "people": [
+        "Robert Hooke"
+      ],
+      "title": "Pulse theory and thin-film colors",
+      "discovery": "Proposed light as fast vibrations/pulses in a medium; studied iridescent colors of thin films (Micrographia).",
+      "evidence": "Observations of colors in soap films, mica flakes and peacock feathers that vary with thickness.",
+      "significance": "Early wave-like thinking about light; thin-film interference will later become a classic wave proof."
+    },
+    {
+      "id": "1672-newton",
+      "year": 1672,
+      "act": 1,
+      "track": "foundations",
+      "people": [
+        "Isaac Newton"
+      ],
+      "title": "Dispersion and the corpuscular theory",
+      "discovery": "White light is a mixture of colors separated by a prism; light is composed of particles ('corpuscles'). Full theory in Opticks (1704).",
+      "evidence": "The famous prism experiments at Cambridge: a second prism recombines the spectrum back into white light.",
+      "significance": "Newton's authority makes the particle theory dominant for over a century - the position quantum mechanics will partially vindicate."
+    },
+    {
+      "id": "1676-romer",
+      "year": 1676,
+      "act": 1,
+      "track": "foundations",
+      "people": [
+        "Ole Romer"
+      ],
+      "title": "Light has a finite speed",
+      "discovery": "Light travels at a finite (enormous) velocity rather than instantaneously.",
+      "evidence": "Timing anomalies in the eclipses of Jupiter's moon Io depending on Earth-Jupiter distance.",
+      "significance": "Light becomes a physical thing with measurable properties, not an abstract ray."
+    },
+    {
+      "id": "1690-huygens",
+      "year": 1690,
+      "act": 1,
+      "track": "foundations",
+      "people": [
+        "Christiaan Huygens"
+      ],
+      "title": "Wave theory of light",
+      "discovery": "Light is a wave propagating through a medium; every point on a wavefront is a source of secondary wavelets (Huygens principle, Traite de la Lumiere).",
+      "evidence": "Wave construction correctly derives reflection, refraction, and the strange double refraction of Iceland spar.",
+      "significance": "The great rival to Newton's corpuscles. The particle-vs-wave duel is now formally open - it will take until 1905-1927 to resolve as 'both'."
+    },
+    {
+      "id": "1800-herschel",
+      "year": 1800,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "William Herschel"
+      ],
+      "title": "Infrared radiation",
+      "discovery": "Invisible 'heat rays' exist beyond the red end of the spectrum.",
+      "evidence": "A thermometer placed past the red edge of a prism's spectrum rose higher than in visible light.",
+      "significance": "The spectrum extends beyond human sight - radiation is a broader phenomenon than visible light, setting up the blackbody problem."
+    },
+    {
+      "id": "1801-young",
+      "year": 1801,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Thomas Young"
+      ],
+      "title": "Double-slit interference",
+      "discovery": "Light passing through two slits produces alternating bright and dark fringes - unambiguous wave interference.",
+      "evidence": "The double-slit experiment (demonstrations and Royal Society lectures, 1801-1803).",
+      "significance": "The wave theory's decisive blow against Newton's corpuscles - and the very experiment that will later, with single electrons and photons, become the central mystery of quantum mechanics."
+    },
+    {
+      "id": "1814-fraunhofer",
+      "year": 1814,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Joseph von Fraunhofer"
+      ],
+      "title": "Dark lines in the solar spectrum",
+      "discovery": "The Sun's spectrum is crossed by hundreds of fixed dark lines at precise wavelengths.",
+      "evidence": "High-quality prisms and diffraction gratings resolving 570+ lines, which he catalogued.",
+      "significance": "A barcode written in sunlight with no explanation. Spectral lines become the central unexplained data that Bohr's quantum atom will finally decode in 1913."
+    },
+    {
+      "id": "1818-fresnel",
+      "year": 1818,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Augustin-Jean Fresnel",
+        "Francois Arago"
+      ],
+      "title": "Mathematical wave optics and the Poisson spot",
+      "discovery": "Complete wave theory of diffraction; predicted (via Poisson's objection) a bright spot at the center of a circular shadow.",
+      "evidence": "Arago experimentally found the 'impossible' bright spot, converting the objection into a triumph.",
+      "significance": "Wave theory becomes quantitatively predictive; a rival's ridicule turned into proof - a template for how quantum theory will also win."
+    },
+    {
+      "id": "1845-faraday",
+      "year": 1845,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Michael Faraday"
+      ],
+      "title": "Light responds to magnetism",
+      "discovery": "A magnetic field rotates the polarization of light passing through glass (Faraday rotation).",
+      "evidence": "Polarized light through heavy glass between electromagnet poles showed measurable rotation.",
+      "significance": "First direct link between light and electromagnetism - the clue Maxwell will turn into a full theory."
+    },
+    {
+      "id": "1859-kirchhoff",
+      "year": 1859,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Gustav Kirchhoff",
+        "Robert Bunsen"
+      ],
+      "title": "Spectroscopy and the blackbody problem",
+      "discovery": "Each chemical element emits/absorbs its own unique set of spectral lines; Kirchhoff also poses the ideal 'blackbody' radiation problem.",
+      "evidence": "Flame spectra of elements matched to Fraunhofer's solar lines, identifying elements in the Sun.",
+      "significance": "Two time bombs planted at once: unexplained atomic fingerprints, and the blackbody spectrum whose solution in 1900 will detonate the quantum revolution."
+    },
+    {
+      "id": "1865-maxwell",
+      "year": 1865,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "James Clerk Maxwell"
+      ],
+      "title": "Light is an electromagnetic wave",
+      "discovery": "Unified electricity and magnetism into field equations whose wave solutions travel at exactly the speed of light.",
+      "evidence": "Calculated wave speed from purely electrical measurements matched the measured speed of light.",
+      "significance": "The crowning triumph of classical physics - and the theory whose collision with thermodynamics (blackbody) and with atoms (stability) will force the quantum."
+    },
+    {
+      "id": "1869-mendeleev",
+      "year": 1869,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Dmitri Mendeleev"
+      ],
+      "title": "The periodic table",
+      "discovery": "Elements arranged by weight show repeating chemical patterns; gaps predicted new elements.",
+      "evidence": "Successful predictions of gallium, scandium and germanium with correct properties.",
+      "significance": "A pattern with no mechanism. Only quantum mechanics (Pauli exclusion + electron shells, 1925) will explain WHY the table repeats."
+    },
+    {
+      "id": "1885-balmer",
+      "year": 1885,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Johann Balmer"
+      ],
+      "title": "The hydrogen line formula",
+      "discovery": "The visible spectral lines of hydrogen fit a simple integer formula - wavelengths depend on whole numbers.",
+      "evidence": "Four measured hydrogen lines matched his formula to extraordinary precision; it then predicted further lines correctly.",
+      "significance": "Integers hiding inside an atom's light. Nobody knows why for 28 years - until Bohr derives the formula from quantized orbits."
+    },
+    {
+      "id": "1887-hertz",
+      "year": 1887,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Heinrich Hertz"
+      ],
+      "title": "Radio waves confirmed - and a strange side effect",
+      "discovery": "Generated and detected Maxwell's electromagnetic waves; also noticed that ultraviolet light makes sparks jump more easily (the photoelectric effect).",
+      "evidence": "Spark-gap transmitter and resonant receiver loops; UV illumination of electrodes changed spark behavior.",
+      "significance": "The same year confirms light-as-EM-wave AND stumbles on the effect that will prove light is particles. History's neatest irony."
+    },
+    {
+      "id": "1887-michelson",
+      "year": 1887,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Albert Michelson",
+        "Edward Morley"
+      ],
+      "title": "No luminiferous ether",
+      "discovery": "The expected 'ether wind' from Earth's motion does not exist - light's speed is the same in all directions.",
+      "evidence": "Interferometer sensitive to fractions of a fringe found no seasonal or directional shift.",
+      "significance": "If light is a wave, what waves? The medium is gone. Cracks open for both relativity and the photon."
+    },
+    {
+      "id": "1895-rontgen",
+      "year": 1895,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Wilhelm Rontgen"
+      ],
+      "title": "X-rays",
+      "discovery": "A penetrating, invisible radiation produced by cathode-ray tubes.",
+      "evidence": "Fluorescent screen glowing across the room; the famous photograph of his wife's hand bones.",
+      "significance": "New radiation beyond all known light - later shown to be high-energy photons, and the probe Compton will use to prove photon momentum."
+    },
+    {
+      "id": "1896-becquerel",
+      "year": 1896,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Henri Becquerel",
+        "Marie Curie",
+        "Pierre Curie"
+      ],
+      "title": "Radioactivity",
+      "discovery": "Uranium (then polonium and radium, isolated by the Curies) spontaneously emits energetic radiation.",
+      "evidence": "Photographic plates fogged by uranium salts in total darkness; painstaking chemical isolation of new elements.",
+      "significance": "Atoms are not eternal or indivisible - they transform and release energy from within. The atom's interior becomes physics' next frontier."
+    },
+    {
+      "id": "1896-wien",
+      "year": 1896,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Wilhelm Wien"
+      ],
+      "title": "Wien's radiation laws",
+      "discovery": "Displacement law (hotter bodies peak at shorter wavelengths) and a radiation formula that fits the short-wavelength side of the blackbody spectrum.",
+      "evidence": "Careful blackbody cavity measurements at Berlin's PTR laboratory.",
+      "significance": "Half a correct answer. The failure of any classical formula to fit the WHOLE spectrum is the precise crack Planck will fill with the quantum."
+    },
+    {
+      "id": "1897-thomson",
+      "year": 1897,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "J.J. Thomson"
+      ],
+      "title": "Discovery of the electron",
+      "discovery": "Cathode rays are streams of a universal negative particle ~1800x lighter than hydrogen.",
+      "evidence": "Deflection of cathode rays by electric and magnetic fields yielding charge-to-mass ratio.",
+      "significance": "The first subatomic particle - the entity whose quantum behavior (orbits, spin, waves, exclusion) the entire theory will be built to describe."
+    },
+    {
+      "id": "1900-rayleigh",
+      "year": 1900,
+      "act": 2,
+      "track": "foundations",
+      "people": [
+        "Lord Rayleigh",
+        "James Jeans"
+      ],
+      "title": "The ultraviolet catastrophe",
+      "discovery": "Classical physics, applied honestly to blackbody radiation, predicts infinite energy at short wavelengths - an absurdity.",
+      "evidence": "Rayleigh-Jeans law fits long wavelengths but diverges catastrophically in the ultraviolet.",
+      "significance": "Classical physics formally breaks. The stage is set: someone must do something desperate. Planck does, the same year."
+    },
+    {
+      "id": "1900-planck",
+      "year": 1900,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Max Planck"
+      ],
+      "title": "The quantum of action (December 14, 1900)",
+      "discovery": "Blackbody radiation is explained only if energy is exchanged in discrete packets E = h*nu, introducing the constant h.",
+      "evidence": "His formula fit the entire measured blackbody spectrum perfectly, at all wavelengths and temperatures.",
+      "significance": "The birthday of quantum theory. Planck called it 'an act of desperation' - he never expected the quantum to be real. It was."
+    },
+    {
+      "id": "1905-einstein",
+      "year": 1905,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Albert Einstein"
+      ],
+      "title": "Light quanta - the photon",
+      "discovery": "Light itself consists of discrete energy quanta; this explains the photoelectric effect's dependence on frequency, not intensity.",
+      "evidence": "Photoelectric data: electron energy rises with light frequency and has a sharp threshold - impossible for classical waves.",
+      "significance": "Newton's corpuscles return, transformed. Einstein's only self-described 'revolutionary' paper - and his Nobel Prize (1921), not relativity."
+    },
+    {
+      "id": "1907-einstein-heat",
+      "year": 1907,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Albert Einstein"
+      ],
+      "title": "Quantum theory of solids",
+      "discovery": "Quantized vibrations explain why the heat capacity of solids drops at low temperature, violating classical predictions.",
+      "evidence": "Einstein's model matched anomalous specific-heat data (later refined by Debye, 1912).",
+      "significance": "Proof the quantum isn't just about light - MATTER is quantized too. The quantum becomes universal."
+    },
+    {
+      "id": "1909-millikan",
+      "year": 1909,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Robert Millikan"
+      ],
+      "title": "Charge comes in units",
+      "discovery": "Electric charge is quantized: every measured charge is an integer multiple of e.",
+      "evidence": "The oil-drop experiment (1909-1913): balancing charged droplets against gravity in an electric field.",
+      "significance": "Discreteness confirmed at the level of charge itself. (Millikan later verifies Einstein's photoelectric equation while trying to disprove it.)"
+    },
+    {
+      "id": "1911-rutherford",
+      "year": 1911,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Ernest Rutherford",
+        "Hans Geiger",
+        "Ernest Marsden"
+      ],
+      "title": "The atomic nucleus",
+      "discovery": "Atoms are mostly empty space with a tiny, dense, positively charged nucleus.",
+      "evidence": "Gold-foil experiment: ~1 in 8000 alpha particles bounced backward - 'as if you fired a shell at tissue paper and it came back'.",
+      "significance": "Creates an impossible atom: classical electrons orbiting a nucleus must radiate and crash within nanoseconds. Something non-classical keeps atoms alive."
+    },
+    {
+      "id": "1911-solvay",
+      "year": 1911,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Ernest Solvay",
+        "Hendrik Lorentz",
+        "Max Planck",
+        "Albert Einstein",
+        "Marie Curie"
+      ],
+      "title": "First Solvay Conference",
+      "discovery": "The world's leading physicists convene specifically on 'Radiation and the Quanta' - the first conference of the quantum age.",
+      "evidence": "Brussels, October 1911; the iconic photograph of classical physics' elite confronting the quantum.",
+      "significance": "The quantum problem is now THE problem of physics, no longer a curiosity."
+    },
+    {
+      "id": "1913-bohr",
+      "year": 1913,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Niels Bohr"
+      ],
+      "title": "The quantized atom",
+      "discovery": "Electrons occupy only discrete orbits with quantized angular momentum; light is emitted in jumps between them.",
+      "evidence": "Derived Balmer's 1885 hydrogen formula from first principles, with the Rydberg constant emerging from h, e, and m.",
+      "significance": "The 28-year-old mystery of hydrogen's integer spectrum solved. Atoms are stable BECAUSE energy is quantized. Old quantum theory reaches its peak."
+    },
+    {
+      "id": "1914-franck-hertz",
+      "year": 1914,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "James Franck",
+        "Gustav Hertz"
+      ],
+      "title": "Energy levels are real",
+      "discovery": "Electrons colliding with mercury atoms lose energy only in discrete 4.9 eV chunks.",
+      "evidence": "Current through mercury vapor drops sharply at voltage multiples of 4.9 V; the atoms then glow at exactly the matching UV line.",
+      "significance": "Direct, mechanical proof of Bohr's discrete levels - quantization observed in a collision, not just in light."
+    },
+    {
+      "id": "1916-einstein-emission",
+      "year": 1916,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Albert Einstein"
+      ],
+      "title": "Stimulated emission",
+      "discovery": "An excited atom can be triggered by passing light to emit an identical photon (A and B coefficients).",
+      "evidence": "Theoretical derivation that re-obtains Planck's law and assigns momentum h*nu/c to light quanta.",
+      "significance": "The principle inside every laser - written 44 years before the first laser exists. Quantum theory begins predicting technology."
+    },
+    {
+      "id": "1922-stern-gerlach",
+      "year": 1922,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Otto Stern",
+        "Walther Gerlach"
+      ],
+      "title": "Space quantization",
+      "discovery": "Silver atoms in a magnetic field split into exactly TWO beams - their magnetic orientation is quantized, not continuous.",
+      "evidence": "Atomic beam through an inhomogeneous magnet left two discrete traces on the plate, not a smear.",
+      "significance": "The measurement that reveals spin before spin is named (1925). Today it's the canonical example of quantum measurement itself."
+    },
+    {
+      "id": "1923-compton",
+      "year": 1923,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Arthur Compton"
+      ],
+      "title": "Photons carry momentum",
+      "discovery": "X-rays scattering off electrons shift wavelength exactly as if particle-like photons collide billiard-style with electrons.",
+      "evidence": "Measured wavelength shift vs angle matched the photon-collision formula precisely.",
+      "significance": "The last holdouts surrender: light quanta are undeniably real particles with energy AND momentum. Duality is now unavoidable."
+    },
+    {
+      "id": "1924-debroglie",
+      "year": 1924,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Louis de Broglie"
+      ],
+      "title": "Matter waves",
+      "discovery": "If light waves are particles, then particles are waves: every particle has wavelength lambda = h/p.",
+      "evidence": "PhD thesis; immediately explains Bohr's orbits as standing electron waves. Einstein championed it.",
+      "significance": "The symmetry that completes duality and hands Schrodinger his central idea. Confirmed by electron diffraction in 1927."
+    },
+    {
+      "id": "1924-bose",
+      "year": 1924,
+      "act": 3,
+      "track": "foundations",
+      "people": [
+        "Satyendra Nath Bose",
+        "Albert Einstein"
+      ],
+      "title": "Quantum statistics",
+      "discovery": "Photons (and later atoms) obey new counting rules for identical particles; Einstein extends it to matter and predicts Bose-Einstein condensation.",
+      "evidence": "Bose's derivation of Planck's law from pure statistics, sent from Dhaka to Einstein, who translated and extended it.",
+      "significance": "Identical quantum particles are fundamentally indistinguishable - the root of lasers, superfluids, and the BEC finally created in 1995."
+    },
+    {
+      "id": "1925-pauli",
+      "year": 1925,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Wolfgang Pauli",
+        "George Uhlenbeck",
+        "Samuel Goudsmit"
+      ],
+      "title": "Exclusion principle and spin",
+      "discovery": "No two electrons share the same quantum state (Pauli, January); the needed fourth quantum number is intrinsic spin (Uhlenbeck-Goudsmit, October).",
+      "evidence": "Explains atomic shell structure, the periodic table's periods, and anomalous Zeeman splitting.",
+      "significance": "WHY chemistry exists: Mendeleev's 1869 pattern finally has a mechanism. Matter is rigid because electrons refuse to overlap."
+    },
+    {
+      "id": "1925-heisenberg",
+      "year": 1925,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Werner Heisenberg",
+        "Max Born",
+        "Pascual Jordan"
+      ],
+      "title": "Matrix mechanics",
+      "discovery": "The first complete quantum mechanics: observables become matrices that don't commute (pq - qp = ih/2pi).",
+      "evidence": "Heisenberg's Helgoland breakthrough (July 1925), formalized in the Born-Jordan and three-man papers; reproduces atomic spectra.",
+      "significance": "Quantum theory becomes a real, self-consistent mechanics - built only from observable quantities, abandoning orbits entirely."
+    },
+    {
+      "id": "1926-schrodinger",
+      "year": 1926,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Erwin Schrodinger",
+        "Max Born"
+      ],
+      "title": "The wave equation and the probability rule",
+      "discovery": "A wave equation governs de Broglie's matter waves and reproduces hydrogen exactly; Born then shows |psi|^2 gives the PROBABILITY of finding the particle.",
+      "evidence": "Four 1926 papers solving hydrogen, oscillators, perturbations; proven equivalent to matrix mechanics.",
+      "significance": "The equation at the heart of chemistry, materials, and every circuit simulator - including the statevectors in this project's backend. With Born's rule, God starts playing dice."
+    },
+    {
+      "id": "1927-heisenberg-uncertainty",
+      "year": 1927,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Werner Heisenberg"
+      ],
+      "title": "The uncertainty principle",
+      "discovery": "Position and momentum cannot both be sharply defined: delta-x * delta-p >= h-bar/2. Not ignorance - nature's structure.",
+      "evidence": "Derived from the non-commuting formalism; gamma-ray microscope thought experiment.",
+      "significance": "Determinism ends as a fundamental principle. Also the reason quantum states can't be copied or perfectly eavesdropped - the seed of quantum cryptography."
+    },
+    {
+      "id": "1927-davisson",
+      "year": 1927,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Clinton Davisson",
+        "Lester Germer",
+        "George Paget Thomson"
+      ],
+      "title": "Electrons diffract",
+      "discovery": "Electron beams produce interference patterns off crystals - matter waves are experimentally real.",
+      "evidence": "Nickel-crystal scattering peaks at exactly de Broglie's predicted angles; Thomson's independent foil experiments.",
+      "significance": "Poetic symmetry: J.J. Thomson proved the electron is a particle; his son proved it's a wave. Both won Nobels. Both were right."
+    },
+    {
+      "id": "1927-solvay5",
+      "year": 1927,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Niels Bohr",
+        "Albert Einstein",
+        "et al."
+      ],
+      "title": "Fifth Solvay: Bohr vs Einstein",
+      "discovery": "The Copenhagen interpretation (complementarity, probabilistic collapse) is debated at the most famous physics conference ever held.",
+      "evidence": "17 of the 29 attendees were or became Nobel laureates; Einstein's thought-experiment attacks, Bohr's rebuttals.",
+      "significance": "'God does not play dice' - 'Einstein, stop telling God what to do.' The interpretation debate that still isn't settled."
+    },
+    {
+      "id": "1928-dirac",
+      "year": 1928,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Paul Dirac"
+      ],
+      "title": "Relativistic quantum mechanics",
+      "discovery": "Merging quantum mechanics with special relativity yields an equation that predicts spin automatically - and demands ANTIMATTER.",
+      "evidence": "The Dirac equation's negative-energy solutions; Carl Anderson finds the positron in cosmic rays in 1932.",
+      "significance": "A particle discovered by pure mathematics before any experiment saw it. The template for theory-led physics ever since."
+    },
+    {
+      "id": "1932-chadwick",
+      "year": 1932,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "James Chadwick",
+        "John von Neumann"
+      ],
+      "title": "The neutron; QM gets rigorous foundations",
+      "discovery": "Chadwick identifies the neutron, completing the atom's parts list; von Neumann publishes the mathematical foundations of QM (Hilbert spaces, measurement theory).",
+      "evidence": "Beryllium radiation knocking protons with the kinematics of a neutral, proton-mass particle; von Neumann's 'Mathematische Grundlagen'.",
+      "significance": "The atom is complete, and quantum mechanics gets the rigorous state-vector formalism this project's simulator literally computes in."
+    },
+    {
+      "id": "1935-epr",
+      "year": 1935,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Albert Einstein",
+        "Boris Podolsky",
+        "Nathan Rosen",
+        "Erwin Schrodinger"
+      ],
+      "title": "The EPR paradox and Schrodinger's cat",
+      "discovery": "EPR argue that quantum correlations between distant particles imply the theory is incomplete; Schrodinger responds, coins 'entanglement' (Verschrankung), and poses the cat paradox.",
+      "evidence": "Thought experiments only - Bell (1964) will make them testable, Aspect (1982) will run them.",
+      "significance": "The paper meant to kill quantum mechanics instead names its greatest resource. Entanglement is now the fuel of quantum computing, teleportation, and cryptography."
+    },
+    {
+      "id": "1947-transistor",
+      "year": 1947,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "John Bardeen",
+        "Walter Brattain",
+        "William Shockley"
+      ],
+      "title": "The transistor",
+      "discovery": "A solid-state amplifier/switch built from semiconductor physics - band theory and quantum tunneling made practical.",
+      "evidence": "The point-contact transistor at Bell Labs, December 1947.",
+      "significance": "Quantum mechanics becomes the foundation of ALL modern electronics. Every classical computer is already a quantum-physics machine - the irony the quantum computing era will complete."
+    },
+    {
+      "id": "1947-lamb",
+      "year": 1947,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Willis Lamb",
+        "Robert Retherford"
+      ],
+      "title": "The Lamb shift",
+      "discovery": "Two hydrogen levels that Dirac's theory says are identical are minutely split - the vacuum itself perturbs the atom.",
+      "evidence": "Microwave spectroscopy resolving a 1057 MHz splitting.",
+      "significance": "The discrepancy that forces quantum field theory: even 'empty' space seethes with fluctuations. QED is built to explain this number."
+    },
+    {
+      "id": "1948-qed",
+      "year": 1948,
+      "act": 4,
+      "track": "foundations",
+      "people": [
+        "Richard Feynman",
+        "Julian Schwinger",
+        "Sin-Itiro Tomonaga",
+        "Freeman Dyson"
+      ],
+      "title": "Quantum electrodynamics",
+      "discovery": "A complete quantum field theory of light and matter, with renormalization taming the infinities; Feynman diagrams as its language.",
+      "evidence": "Predicts the electron's magnetic moment to ~12 decimal places - the most precisely verified theory in science.",
+      "significance": "The most accurate theory humanity has ever produced. Feynman's path-integral view will later inspire his 1981 quantum computing proposal."
+    },
+    {
+      "id": "1957-everett",
+      "year": 1957,
+      "act": 5,
+      "track": "foundations",
+      "people": [
+        "Hugh Everett III"
+      ],
+      "title": "Many-worlds interpretation",
+      "discovery": "Take the wave equation with total seriousness: no collapse - every measurement outcome occurs, in branching worlds.",
+      "evidence": "A reinterpretation, not a new prediction; ignored for decades, now a leading interpretation.",
+      "significance": "Deutsch will explicitly credit many-worlds thinking when inventing the universal quantum computer in 1985."
+    },
+    {
+      "id": "1960-laser",
+      "year": 1960,
+      "act": 5,
+      "track": "foundations",
+      "people": [
+        "Theodore Maiman",
+        "Charles Townes",
+        "Arthur Schawlow"
+      ],
+      "title": "The laser",
+      "discovery": "Coherent light from stimulated emission - Einstein's 1916 mechanism engineered into a device (maser 1954, ruby laser May 1960).",
+      "evidence": "Maiman's flash-pumped ruby rod at Hughes Labs emitting coherent red pulses.",
+      "significance": "The quantum tool that will later trap ions, cool atoms, and drive the gates of trapped-ion quantum computers."
+    },
+    {
+      "id": "1961-landauer",
+      "year": 1961,
+      "act": 5,
+      "track": "computing",
+      "people": [
+        "Rolf Landauer",
+        "Charles Bennett"
+      ],
+      "title": "Information is physical",
+      "discovery": "Erasing one bit costs a minimum energy (Landauer's principle); Bennett shows computation can be made fully reversible (1973).",
+      "evidence": "Thermodynamic analysis of computation; reversible logic constructions.",
+      "significance": "The conceptual bridge between physics and computation - the prehistory of the quantum computing track. Quantum gates are reversible for exactly this reason."
+    },
+    {
+      "id": "1964-bell",
+      "year": 1964,
+      "act": 5,
+      "track": "foundations",
+      "people": [
+        "John Stewart Bell"
+      ],
+      "title": "Bell's theorem",
+      "discovery": "No local hidden-variable theory can reproduce quantum correlations - EPR's 'incompleteness' is experimentally decidable via an inequality.",
+      "evidence": "A mathematical theorem; CHSH (1969) recasts it for real experiments.",
+      "significance": "Philosophy becomes physics. The universe is provably non-local or non-realistic - and entanglement is certified as genuinely new."
+    },
+    {
+      "id": "1972-clauser",
+      "year": 1972,
+      "act": 5,
+      "track": "foundations",
+      "people": [
+        "John Clauser",
+        "Stuart Freedman"
+      ],
+      "title": "First Bell test",
+      "discovery": "Entangled photon pairs violate Bell's inequality - quantum mechanics wins its first courtroom test against local realism.",
+      "evidence": "Calcium-cascade photon polarization correlations at Berkeley.",
+      "significance": "Entanglement moves from thought experiment to measured fact. Clauser shares the 2022 Nobel for this."
+    },
+    {
+      "id": "1980-benioff",
+      "year": 1980,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Paul Benioff",
+        "Yuri Manin"
+      ],
+      "title": "THE FORK: quantum models of computation",
+      "discovery": "Benioff constructs a quantum-mechanical Turing machine; Manin independently notes quantum systems' exponential descriptive power.",
+      "evidence": "Benioff's Hamiltonian model of reversible quantum computation (Journal of Statistical Physics).",
+      "significance": "The track splits here. Computation is no longer abstract - it must obey, and can exploit, quantum mechanics."
+    },
+    {
+      "id": "1981-feynman",
+      "year": 1981,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Richard Feynman"
+      ],
+      "title": "'Nature isn't classical, dammit'",
+      "discovery": "Classical computers need exponential resources to simulate quantum systems - so build computers OUT of quantum mechanics to simulate nature.",
+      "evidence": "MIT keynote 'Simulating Physics with Computers' (May 1981, published 1982).",
+      "significance": "The founding speech of quantum computing, and the direct ancestor of this project's VQE Molecular Forge: simulating molecules is exactly what Feynman asked for."
+    },
+    {
+      "id": "1984-bb84",
+      "year": 1984,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Charles Bennett",
+        "Gilles Brassard"
+      ],
+      "title": "Quantum cryptography (BB84)",
+      "discovery": "A key-distribution protocol whose security rests on physics: measuring unknown quantum states disturbs them, exposing any eavesdropper.",
+      "evidence": "Built on Wiesner's unpublishable 1970s 'quantum money'; first working demo 1989 over 32 cm.",
+      "significance": "The first quantum information TECHNOLOGY. Today QKD runs on satellites and metro fiber networks."
+    },
+    {
+      "id": "1985-deutsch",
+      "year": 1985,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "David Deutsch"
+      ],
+      "title": "The universal quantum computer",
+      "discovery": "Defines the universal quantum Turing machine and exhibits the first task where quantum beats classical (extended with Jozsa, 1992).",
+      "evidence": "Proc. Royal Society paper formalizing quantum parallelism and universality.",
+      "significance": "Quantum computing becomes a rigorous theory of computation with its own complexity classes - not just a physics dream."
+    },
+    {
+      "id": "1993-teleportation",
+      "year": 1993,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Charles Bennett",
+        "Gilles Brassard",
+        "et al."
+      ],
+      "title": "Quantum teleportation protocol",
+      "discovery": "An unknown quantum state can be transmitted exactly using shared entanglement plus two classical bits - without moving the particle.",
+      "evidence": "Six-author theory paper; experimentally realized with photons in 1997 (Zeilinger's and De Martini's groups).",
+      "significance": "Entanglement is a usable channel. Teleportation is now the routing primitive inside quantum networks and error-corrected architectures."
+    },
+    {
+      "id": "1994-shor",
+      "year": 1994,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Peter Shor"
+      ],
+      "title": "Shor's algorithm",
+      "discovery": "A quantum computer can factor integers exponentially faster than any known classical method - breaking RSA cryptography.",
+      "evidence": "Polynomial-time quantum factoring via the quantum Fourier transform.",
+      "significance": "The moment governments and industry started paying. Every 'post-quantum cryptography' migration happening today traces to this paper."
+    },
+    {
+      "id": "1995-cirac-zoller",
+      "year": 1995,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Ignacio Cirac",
+        "Peter Zoller",
+        "Christopher Monroe",
+        "David Wineland"
+      ],
+      "title": "First real quantum gate",
+      "discovery": "Cirac-Zoller propose a CNOT gate on trapped ions; Monroe and Wineland demonstrate it within months on a single beryllium ion.",
+      "evidence": "NIST trapped-ion experiment (December 1995) implementing controlled logic between motional and spin qubits.",
+      "significance": "Quantum computing leaves the whiteboard. Hardware exists."
+    },
+    {
+      "id": "1995-shor-qec",
+      "year": 1995,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Peter Shor",
+        "Andrew Steane"
+      ],
+      "title": "Quantum error correction",
+      "discovery": "Quantum information can be protected without measuring it: Shor's 9-qubit code, Steane's 7-qubit code, then threshold theorems.",
+      "evidence": "Explicit codes encoding one logical qubit in several physical qubits, correcting both bit- and phase-flips.",
+      "significance": "Answers the fatal objection ('decoherence kills everything'). The entire modern race - surface codes, logical qubits - runs on this foundation."
+    },
+    {
+      "id": "1996-grover",
+      "year": 1996,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Lov Grover"
+      ],
+      "title": "Grover's search algorithm",
+      "discovery": "Quantum computers search an unstructured list of N items in ~sqrt(N) steps - a provable quadratic speedup for a universal task.",
+      "evidence": "Amplitude-amplification algorithm with proven optimality.",
+      "significance": "With Shor, one of the two canonical algorithms every quantum aspirant learns first - and a staple demo for this project's circuit builder."
+    },
+    {
+      "id": "1998-nmr",
+      "year": 1998,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Isaac Chuang",
+        "Neil Gershenfeld",
+        "Jonathan Jones"
+      ],
+      "title": "First algorithms run on hardware",
+      "discovery": "2-qubit NMR machines execute Deutsch-Jozsa and Grover's algorithm; by 2001, a 7-spin IBM molecule runs Shor's algorithm to factor 15.",
+      "evidence": "Nuclear-spin ensembles in molecules manipulated by RF pulses; published factoring of 15 = 3 x 5 (2001).",
+      "significance": "Proof of principle complete: real quantum algorithms on real quantum matter, however small."
+    },
+    {
+      "id": "1999-nakamura",
+      "year": 1999,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Yasunobu Nakamura",
+        "Jaw-Shen Tsai"
+      ],
+      "title": "The superconducting qubit",
+      "discovery": "Coherent quantum oscillations in a superconducting circuit - a manufactured, chip-based artificial atom.",
+      "evidence": "Cooper-pair box at NEC showing controllable superpositions of charge states.",
+      "significance": "The lineage that leads directly to transmons - the qubits inside the IBM machines this project submits circuits to."
+    },
+    {
+      "id": "2000-divincenzo",
+      "year": 2000,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "David DiVincenzo"
+      ],
+      "title": "The DiVincenzo criteria",
+      "discovery": "Five requirements any physical quantum computer must satisfy (scalable qubits, initialization, long coherence, universal gates, measurement).",
+      "evidence": "Influential position paper synthesizing a decade of proposals.",
+      "significance": "The checklist that turned quantum computing into an engineering discipline with comparable platforms."
+    },
+    {
+      "id": "2011-dwave",
+      "year": 2011,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "D-Wave Systems"
+      ],
+      "title": "First commercial quantum machine",
+      "discovery": "D-Wave One: a 128-qubit superconducting quantum ANNEALER sold to Lockheed Martin (special-purpose optimization, not universal gates).",
+      "evidence": "Commercial sale and installation; years of debate over quantumness and speedup followed.",
+      "significance": "Quantum computing becomes an industry with customers, marketing, and controversy - forcing rigor about what counts as advantage."
+    },
+    {
+      "id": "2016-ibmq",
+      "year": 2016,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "IBM"
+      ],
+      "title": "Quantum computing goes on the cloud",
+      "discovery": "IBM Quantum Experience puts a 5-qubit processor on the public internet - anyone can run circuits on real hardware.",
+      "evidence": "Web-based composer and API; millions of user experiments since; grows into Qiskit.",
+      "significance": "Democratization moment - the exact capability (cloud access to real QPUs) this project's 'quantum core' portal is built on."
+    },
+    {
+      "id": "2019-sycamore",
+      "year": 2019,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Google AI Quantum",
+        "John Martinis"
+      ],
+      "title": "Quantum supremacy claim",
+      "discovery": "53-qubit Sycamore samples random circuits in ~200 seconds, claimed to take classical supercomputers millennia (later reduced, but the milestone stood).",
+      "evidence": "Nature paper with cross-entropy benchmarking; IBM's rebuttal sharpened the debate.",
+      "significance": "First credible claim of a quantum device beating all classical computers at ANY task - the field's Sputnik moment."
+    },
+    {
+      "id": "2022-nobel",
+      "year": 2022,
+      "act": 6,
+      "track": "foundations",
+      "people": [
+        "Alain Aspect",
+        "John Clauser",
+        "Anton Zeilinger"
+      ],
+      "title": "Nobel Prize for entanglement",
+      "discovery": "The prize honors Bell-test experiments (Aspect's 1982 switched-analyzer tests closing loopholes) and pioneering quantum information science.",
+      "evidence": "Decades of increasingly loophole-free Bell violations, culminating in the 2015 loophole-free tests.",
+      "significance": "Official closure of the Einstein-Bohr debate: local realism is dead, and the 'second quantum revolution' is canon."
+    },
+    {
+      "id": "2023-logical",
+      "year": 2023,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Harvard/QuEra (Mikhail Lukin group)"
+      ],
+      "title": "Logical qubits arrive",
+      "discovery": "48 logical qubits encoded in neutral-atom arrays execute algorithms with error-corrected encoding outperforming physical qubits.",
+      "evidence": "Nature paper (December 2023) on programmable logical processors with transversal gates.",
+      "significance": "Error correction stops being theory. The metric of progress shifts from physical qubit counts to LOGICAL qubits."
+    },
+    {
+      "id": "2024-willow",
+      "year": 2024,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Google Quantum AI"
+      ],
+      "title": "Below the error-correction threshold",
+      "discovery": "The 105-qubit Willow chip demonstrates that enlarging a surface code EXPONENTIALLY suppresses logical errors - errors go down as the system grows.",
+      "evidence": "Distance-3/5/7 surface codes each halving logical error rate (Nature, December 2024).",
+      "significance": "The 1995 threshold theorem validated in silicon-adjacent hardware: scaling now helps rather than hurts. Fault tolerance has a working recipe."
+    },
+    {
+      "id": "2025-race",
+      "year": 2025,
+      "act": 6,
+      "track": "computing",
+      "people": [
+        "Microsoft",
+        "IBM",
+        "Amazon",
+        "et al."
+      ],
+      "title": "The fault-tolerance race",
+      "discovery": "Microsoft unveils Majorana 1 claiming topological qubits (contested); IBM publishes its roadmap to the Starling fault-tolerant system (~2029); Amazon debuts its Ocelot error-corrected chip.",
+      "evidence": "Public announcements and papers through 2025; scientific scrutiny of topological claims ongoing.",
+      "significance": "The present frontier of the journey - and where this project's users stand when they finish the odyssey: the machine era has begun, unfinished."
+    }
+  ]
+}

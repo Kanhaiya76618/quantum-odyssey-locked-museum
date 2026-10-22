@@ -76,8 +76,6 @@ Add a door by adding circuits to `museum/experiments.py`, a summary in `museum/r
 - **AI assistance:** I used an AI assistant (Claude) to help write the code and this page; I designed the game with it, ran it on Qollab and checked the results.
 - **Libraries:** Qiskit 2.x (Apache 2.0), three.js (MIT, provided by Qollab), fonts from Google Fonts (OFL).
 
-## License
 
-MIT. See `LICENSE`.
 
 *This effort is supported by Qollab & IonQ.*
